@@ -73,6 +73,10 @@ class MainActivity : AppCompatActivity() {
             12 -> "king"
             else -> "error"
         }
+        if (number == "jack" ||number == "queen" ||number == "king")
+        {
+            return "c_${number}_of_${shape}2"
+        }
         return "c_${number}_of_${shape}"
     }
 }
